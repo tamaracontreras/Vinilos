@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Data Lovers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <header>
+    <img id="logo" src="images/libros.jpeg" alt="libros" />
+    <h1>Libros de Ocasión</h1>
+  </header>
+  <body>
+    <h2>Vinilos 2025</h2>
+    <nav>
+      <label for="search">Buscar</label>
+      <input type="text" id="search" placeholder="Título o artista" />
+
+      <label for="select-filter"> Artista</label>
+      <select
+        data-testid="select-filter"
+        name="artist"
+        id="select-artist"
+      ></select>
+
+      <label for="select-filter"> Sello</label>
+      <select
+        data-testid="select-filter"
+        name="places"
+        id="select-filter"
+      ></select>
+      <!-- data-testid="select-filter" name="places" id="select-places" -->
+
+      <label for="select-sort">Ordenar</label>
+      <select data-testid="select-sort" name="alph" id="select-sort">
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
+      </select>
+
+      <button data-testid="button-clear">Reset</button>
+    </nav>
+    <main></main>
+    <div id="root"></div>
+
+    <footer>
+      <div class="social-icons">
+        <a
+          href="https://www.instagram.com/librosdocasion?igsh=Z3Bhc2R6dWI0Mjlu"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/libros.deocasion.7?rdid=AvDHUqyfWVLg7xvv&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FR6E6pJF4%2F#"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <!-- Puedes agregar más íconos -->
+        <a
+          href="https://m.me/libros.deocasion.7"
+          target="_blank"
+          class="btn-messenger"
+        >
+          Chatea con nosotros
+        </a>
+      </div>
+      <div class="developer">
+        Desarrollado por
+        <a href="https://www.desarrollowebpro.cl" target="_blank"
+          >www.desarrollowebpro.cl</a
+        >
+      </div>
+    </footer>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
