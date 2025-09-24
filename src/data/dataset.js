@@ -6,7 +6,7 @@ export const data = [
     "Label": "A&M Records",
     "Format": "LP, Album",
     "Released": 1984,
-    "imageUrl":"images/SP5003.jpg",
+    "imageUrl":"./images/SP5003.jpg",
   },
   {
     "Catalog": "3SACX - 47564",
